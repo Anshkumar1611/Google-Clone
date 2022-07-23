@@ -1,11 +1,18 @@
 import React from 'react'
-
-export default function Routes() {
-  return (
-    <div>
-      <h1>
-        Routes
-      </h1>
-    </div>
-  )
+import { Routes as Way, Route, Navigate } from 'react-router-dom'
+import Results from './Results'
+function Routes() {
+    return (
+        <div className='p-4'>
+            <Way>
+                <Route exact path='/' element={<Navigate to="/search" replace={true} />} />
+                <Route exact path='/search' element={<Results/>}/>
+                <Route exact path='/images' element={<Results/>}/>
+                <Route exact path='/news' element={<Results/>}/>
+                <Route exact path='/videos' element={<Results/>}/>
+            </Way>
+        </div>
+    )
 }
+
+export default Routes
