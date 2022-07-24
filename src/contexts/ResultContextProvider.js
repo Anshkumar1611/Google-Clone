@@ -23,15 +23,15 @@ const getResults = async (url) => {
     }
   })
   const data = await res.json()
-
+console.log(data.images);
   setResults(data)
   setLoading(false)
 }
 
 return (
-  <ResultContextProvider value={{ getResults, results, searchTerm, setSearchTerm, loading }}>
+  <ResultContext.Provider value={{ getResults, results, searchTerm, setSearchTerm, loading }}>
     {children}
-  </ResultContextProvider>
+  </ResultContext.Provider>
 );
 }
 

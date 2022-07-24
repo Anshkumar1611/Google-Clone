@@ -7,7 +7,7 @@ import  Links  from './Links';
 function Search ()  {
   const { setSearchTerm } = useResultContext();
   const [text, setText] = useState('Elon Musk');
-  const [debouncedValue] = useDebounce(text, 300);
+  const [debouncedValue] = useDebounce(text, 2000);
 
   useEffect(() => {
     if (debouncedValue) setSearchTerm(debouncedValue);
