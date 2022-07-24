@@ -1,6 +1,5 @@
 # google-clone
 ## https://ephemeral-squirrel-dc7baf.netlify.app/search
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
