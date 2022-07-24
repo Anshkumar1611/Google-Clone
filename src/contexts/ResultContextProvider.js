@@ -23,7 +23,7 @@ const getResults = async (url) => {
     }
   })
   const data = await res.json()
-console.log(data.images);
+
   setResults(data)
   setLoading(false)
 }
