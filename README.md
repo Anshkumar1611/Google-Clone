@@ -1,5 +1,5 @@
 # google-clone
-## https://animated-parfait-35073e.netlify.app/
+## https://legendary-brigadeiros-507c4c.netlify.app/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
